@@ -1,1 +1,3 @@
 jupyter-kernel-gateway
+codeinterpreterapi
+streamlit
