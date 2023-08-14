@@ -3,16 +3,17 @@ import asyncio
 import streamlit as st  # type: ignore
 
 from codeinterpreterapi import File
-from frontend.utils import get_images
+# from frontend.utils import get_images
+from utils import get_images
 
 # Page configuration
 st.set_page_config(layout="wide")
 
-st.title("Code Interpreter API 🚀")
+st.title("Snapp Store Copilot 🚀")
 
 # This will create a sidebar
-st.sidebar.title("Code Interpreter API 🚀")
-st.sidebar.markdown("[Github Repo](https://github.com/shroominic/codeinterpreter-api)")
+st.sidebar.title("Test UI: Mordad 23")
+# st.sidebar.markdown("[Github Repo](https://github.com/shroominic/codeinterpreter-api)")
 
 
 # This will create a textbox where you can input text
